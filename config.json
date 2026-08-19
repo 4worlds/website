@@ -1,0 +1,119 @@
+{
+  "company": {
+    "name": "4Worlds",
+    "tagline": "Where 4 worlds collide",
+    "logo": "",
+    "description": "We are 4 highly motivated worlds coming together to create and deliver inovative tech.",
+    "mission": "Giving to those who cant",
+    "founded": "2026",
+    "location": "Fort Worth, Texas"
+  },
+  "services": [
+    {
+      "title": "Stroke OFF",
+      "description": "Monitor and have fun with stroking off.",
+      "icon": "code"
+    },
+    {
+      "title": "Consulting",
+      "description": "We provide expert advice on software, AI integration, etc.",
+      "icon": "shield"
+    }
+  ],
+  "team": [
+    {
+      "name": "Chris Moore",
+      "role": "CTO",
+      "bio": "One of 4 founders and technical SME.",
+      "photo": "",
+      "linkedin": "",
+      "email": "chriscm.moore73@gmail.com"
+    },
+    {
+      "name": "Danilo Montalvo",
+      "role": "CTO",
+      "bio": "One of 4 founders and technical SME.",
+      "photo": "",
+      "linkedin": "",
+      "email": ""
+    },
+    {
+      "name": "Don Thai",
+      "role": "CTO",
+      "bio": "One of 4 founders and technical SME.",
+      "photo": "",
+      "linkedin": "",
+      "email": ""
+    },
+    {
+      "name": "Mesale Robi",
+      "role": "CTO",
+      "bio": "One of 4 founders and technical SME.",
+      "photo": "",
+      "linkedin": "",
+      "email": ""
+    }
+  ],
+  "contact": {
+    "email": "info@youremail.com",
+    "phone": "(555) 123-4567",
+    "address": {
+      "street": "123 Main St",
+      "city": "Your City",
+      "state": "ST",
+      "zip": "12345"
+    },
+    "website": "https://yourwebsite.com"
+  },
+  "contracts": {
+    "cage_code": "XXXXX",
+    "duns": "XX-XXX-XXXX",
+    "ein": "XX-XXXXXXX",
+    "uei": "",
+    "sam_registered": true,
+    "vehicles": [
+      {
+        "name": "Contract Vehicle 1",
+        "number": "XXXXXX",
+        "agency": "Agency Name",
+        "description": "Description of the contract vehicle"
+      }
+    ]
+  },
+  "pastPerformance": [
+    {
+      "title": "Project Name",
+      "client": "Client Agency",
+      "period": "2023 - 2024",
+      "description": "Brief description of the work performed.",
+      "value": "$XXX,XXX"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "8(a) Business Development",
+      "issuer": "SBA",
+      "expiry": "2029"
+    },
+    {
+      "name": "HUBZone",
+      "issuer": "SBA",
+      "expiry": "2028"
+    },
+    {
+      "name": "SDVOSB",
+      "issuer": "SBA",
+      "expiry": "2029"
+    }
+  ],
+  "social": {
+    "linkedin": "",
+    "twitter": "",
+    "github": ""
+  },
+  "theme": {
+    "primary_color": "#1a365d",
+    "accent_color": "#2b6cb0",
+    "font": "Inter, system-ui, sans-serif"
+  }
+}

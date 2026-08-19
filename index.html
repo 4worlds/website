@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">LLC Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo" id="nav-logo">LLC Name</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contracts">Contracts</a></li>
+        <li><a href="#performance">Past Performance</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <header class="hero" id="hero">
+    <div class="container">
+      <p class="hero-tagline" id="hero-tagline"></p>
+      <h1 class="hero-title" id="hero-title"></h1>
+      <p class="hero-description" id="hero-description"></p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Contact Us</a>
+        <a href="#services" class="btn btn-outline">Our Services</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p id="about-description"></p>
+          <div class="about-details" id="about-details"></div>
+        </div>
+        <div class="about-mission">
+          <h3>Our Mission</h3>
+          <p id="about-mission"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Services &amp; Capabilities</h2>
+      <div class="services-grid" id="services-grid"></div>
+    </div>
+  </section>
+
+  <section id="contracts" class="section">
+    <div class="container">
+      <h2 class="section-title">Contract Vehicles</h2>
+      <div class="contracts-info" id="contracts-info"></div>
+      <div class="contracts-list" id="contracts-list"></div>
+    </div>
+  </section>
+
+  <section id="performance" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Past Performance</h2>
+      <div class="performance-grid" id="performance-grid"></div>
+    </div>
+  </section>
+
+  <section id="certifications" class="section">
+    <div class="container">
+      <h2 class="section-title">Certifications &amp; SEW</h2>
+      <div class="certs-grid" id="certs-grid"></div>
+    </div>
+  </section>
+
+  <section id="team" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Our Team</h2>
+      <div class="team-grid" id="team-grid"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact-grid">
+        <div class="contact-info" id="contact-info"></div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span id="footer-name"></span>
+        <p id="footer-tagline"></p>
+      </div>
+      <div class="footer-links" id="footer-links"></div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p id="footer-copy"></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
